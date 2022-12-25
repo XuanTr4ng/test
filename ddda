@@ -1,4 +1,4 @@
-(getgenv()).Key = "Key"
+(getgenv()).Key = ""
 
 local keys = {
      "SPEED-YUYOIP-UJUM9",
