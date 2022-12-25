@@ -1,5 +1,3 @@
-(getgenv()).Key = ""
-
 local keys = {
      "SPEED-YUYOIP-UJUM9",
      "SPEED-HUYHGU-7676",
