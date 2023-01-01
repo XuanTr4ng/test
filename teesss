@@ -1,22 +1,24 @@
+(getgenv()).Key = ""
+
 local keys = {
-     "SPEED-YUYOIP-UJUM9",
-     "SPEED-HUYHGU-7676",
-     "SPEED-JUOP-UNM0",
-     "SPEED-HJOP-MKOP0",
-     "SPEED-MOKP-89MK",
-     "SPEED-LOVE-KUY",
-     "SPEED-YUYOIP-UJUM9",
-     "SPEED-HUYHGU-7676",
-     "SPEED-UJUKM-898M",
-     "SPEED-87879-NESKJ",
-     "SEED-NHUIL-7890M",
-     "SPEED-NJKOL-78U8U",
-     "SPEED-787-MJMKO",
-     "SPEED-JKOPY-9MLO",
-     "SPEED-MKLL-POI0",
-     "SPEED-HIOPT-MKO9",
-     "Admin-888-999",
-     "OOOOOOOOOOOO",
+	"SPEED-YUYOIP-UJUM9",
+	"SPEED-HUYHGU-7676",
+	"SPEED-JUOP-UNM0",
+	"SPEED-HJOP-MKOP0",
+	"SPEED-MOKP-89MK",
+	"SPEED-LOVE-KUY",
+	"SPEED-YUYOIP-UJUM9",
+	"SPEED-HUYHGU-7676",
+	"SPEED-UJUKM-898M",
+	"SPEED-87879-NESKJ",
+	"SEED-NHUIL-7890M",
+	"SPEED-NJKOL-78U8U",
+	"SPEED-787-MJMKO",
+	"SPEED-JKOPY-9MLO",
+	"SPEED-MKLL-POI0",
+	"SPEED-HIOPT-MKO9",
+	"Admin-888-999",
+	"OOOOOOOOOOOO",
 }
 
 local counter = 1
@@ -28,7 +30,7 @@ for i,v in pairs(keys) do
     else
         if v == getgenv().Key then 
             -- check succes
-            print("Succesfully, enjoy :]")
+            print("Succesfully, enjoy")
             -- your script
             
 shared.LoaderTitle = 'Speed Hub' -- ใส่ชื่อ
@@ -1531,6 +1533,15 @@ function CheckQuest()
 	    NameMon = "Candy Rebel"
 		CFrameQuest = CFrame.new(149.814438, 24.8196201, -12775.6064, -0.329403073, -1.39752903e-08, -0.94418937, -1.07108015e-07, 1, 2.25658319e-08, 0.94418937, 1.08563505e-07, -0.329403073)
 		CFrameMon = CFrame.new(-244.225952, 77.8919601, -13067.8477, 0.642763317, 0, 0.766064942, 0, 1, 0, -0.766064942, 0, 0.642763317)
+	elseif MyLevel >= 2375 then
+		Mon = "Candy Pirate [Lv. 2400]"
+		LevelQuest = 1
+		NameQuest = "CandyQuest1"
+	    NameMon = "Candy Pirate"		    
+		CFrameMon = CFrame.new(-1408.46521, 16.1423531, -14552.2041, 0.90175873, -8.17216943e-08, -0.432239741, 7.81264475e-08, 1, -2.60746162e-08, 0.432239741, -1.02563433e-08, 0.90175873)
+		VectorQuest = Vector3.new(-1408.46521, 16.1423531, -14552.2041, 0.90175873, -8.17216943e-08, -0.432239741, 7.81264475e-08, 1, -2.60746162e-08, 0.432239741, -1.02563433e-08, 0.90175873)
+		CFrameQuest = CFrame.new(-1151.48987, 16.1422901, -14445.6904, -0.316594511, -6.85698254e-08, -0.948560953, -2.05343067e-08, 1, -6.54346692e-08, 0.948560953, -1.23821675e-09, -0.316594511)
+		VectorQuest = Vector3.new(-1151.48987, 16.1422901, -14445.6904, -0.316594511, -6.85698254e-08, -0.948560953, -2.05343067e-08, 1, -6.54346692e-08, 0.948560953, -1.23821675e-09, -0.316594511)
 		end
 	end
 end
